@@ -1,8 +1,5 @@
 # Site settings
-title: Software Verification 2025
-repository: mariojppereira/software-verification-nsst/2025
-description: >-
-  Software Verification Course 2025 at nova School of Science and Technology
+title: "Software Verification 2025"
 
 markdown: GFM
 plugins:
