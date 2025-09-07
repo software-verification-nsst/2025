@@ -1,6 +1,6 @@
 # Site settings
 title: "Software Verification 2025"
-repository: "mariojppereira/software-verification-nsst/2025"
+repository: "mariojppereira/software-verification-nsst"
 
 markdown: GFM
 plugins:

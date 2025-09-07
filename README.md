@@ -1,5 +1,14 @@
 # Software Verification (2025)
 
+## Office hours
+
+Please inform before (by email) that you plan to attend office hours.
+
+| Instructor    | Schedule | E-mail |
+| ------------- | -------- | ------ |
+| Mário Pereira | Wednesday, 14h00 (Office 243) | mjp.pereira@fct.unl.pt |
+| ------------- | -------- | ------ |
+
 ## Installation procedures
 
 ## The OCaml language and ecosystem
@@ -35,15 +44,6 @@ and basic packages. It is available for Linux, Windows, and MacOS.
 Regarding editors, Rocq comes with its own IDE. This is installed with
 the Rocq Platform. There are also very smooth integration of the proof
 assistant with common text editors, such as VS Code, Emacs, or Vim.
-
-## Office hours
-
-Please inform before (by email) that you plan to attend office hours.
-
-| Instructor | Schedule | E-mail |
-| ---------- | -------- | ------ |
-| Mário Pereira | XXX, XXX (Office 243) | mjp.pereira@fct.unl.pt |
-| ---------- | -------- | ------ |
 
 ## Planning
 
