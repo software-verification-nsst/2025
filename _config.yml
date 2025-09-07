@@ -1,8 +1,8 @@
 # Site settings
-title: Your Project Title
-repository: your-username/your-repository
+title: Software Verification 2025
+repository: mariojppereira/software-verification-nsst/2025
 description: >-
-  A description of your project
+  Software Verification Course 2025 at nova School of Science and Technology
 
 markdown: GFM
 plugins:
