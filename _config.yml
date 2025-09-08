@@ -1,5 +1,7 @@
 # Site settings
+title: Software Verification
 repository: "mariojppereira/software-verification-nsst"
+description: Software Verification Course at Nova School of Science and Technology
 
 markdown: GFM
 plugins:
