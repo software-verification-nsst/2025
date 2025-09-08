@@ -55,4 +55,3 @@ assistant with common text editors, such as VS Code, Emacs, or Vim.
 | ---- | ---- | ------ | ------ | ---- |
 | 1    | 9 Sep | Verified Functional Programs: introduction  |        |      |
 | 1    | 9, 10 Sep | Introduction to the Rocq Proof Assistant |        |      |
-| ---- | ---- | ------ | ------ | ---- |
