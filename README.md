@@ -30,10 +30,11 @@ the installation guide provided [here](install_ocaml.md).
 
 ### The Rocq proof assistant
 
-> [!WARNING] Until very recently, Rocq was called the "Coq Proof
-> Assistant". It is very likely that installation procedures,
-> tutorials, and every kind of available documentation refers to Rocq
-> and Coq interchangeably.
+> [!WARNING]
+> Until very recently, Rocq was called the "Coq Proof Assistant". It
+> is very likely that installation procedures, tutorials, and every
+> kind of available documentation refers to Rocq and Coq
+> interchangeably.
 
 The Rocq proof assistant is going to be our tool of choice for the
 first part of the Software Verification course.
