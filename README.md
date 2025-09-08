@@ -7,7 +7,6 @@ Please inform before (by email) that you plan to attend office hours.
 | Instructor    | Schedule | E-mail |
 | ------------- | -------- | ------ |
 | Mário Pereira | Wednesday, 14h00 (Office 243) | mjp.pereira@fct.unl.pt |
-| ------------- | -------- | ------ |
 
 ## Installation procedures
 
