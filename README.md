@@ -53,5 +53,5 @@ assistant with common text editors, such as VS Code, Emacs, or Vim.
 
 | Week | Date | Topics | Slides | Labs |
 | ---- | ---- | ------ | ------ | ---- |
-| 1    | 9 Sep | Verified Functional Programs: introduction   | [Lecture 1](lecture1.pdf) <br> [Lecture Notes](notes_fp.pdf) |      |
-| 1    | 9, 10 Sep | Introduction to the Rocq Proof Assistant |        | [Lab 1](lab1/lab1.pdf) <br> [Rocq file](lab1/lab1.v) |
+| 1    | 9 Sep | Verified Functional Programs: introduction   | [Lecture 1 (slides)](lecture1.pdf) <br> [Lecture Notes](notes_fp.pdf) |      |
+| 1    | 9, 10 Sep | Introduction to the Rocq Proof Assistant |        | [Lab 1 (.pdf)](lab1/lab1.pdf) <br> [Rocq file (.v)](lab1/lab1.v) |
