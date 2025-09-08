@@ -11,6 +11,11 @@ Please inform before (by email) that you plan to attend office hours.
 
 ## Installation procedures
 
+Throughout the Software Verification course we will be using several
+tools to illustrate different aspects of deductive verification. As
+so, I will be updating this section with the main installation
+procedures and guidelines for each tool and framework.
+
 ## The OCaml language and ecosystem
 
 The OCaml language is the language of choice for the implementation
