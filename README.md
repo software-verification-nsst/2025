@@ -16,7 +16,7 @@ tools to illustrate different aspects of deductive verification. As
 so, I will be updating this section with the main installation
 procedures and guidelines for each tool and framework.
 
-## The OCaml language and ecosystem
+### The OCaml language and ecosystem
 
 The OCaml language is the language of choice for the implementation
 for some of the tools used in the Software Verification course. <!-- We are -->
@@ -30,7 +30,7 @@ the installation guide provided [here](install_ocaml.md).
 
 ### The Rocq proof assistant
 
-> [!IMPORTANT]
+> [!WARNING]
 > Until very recently, Rocq was called the "Coq Proof
 > Assistant". It is very likely that installation procedures,
 > tutorials, and every kind of available refers to Rocq and Coq
