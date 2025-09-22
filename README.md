@@ -57,3 +57,5 @@ assistant with common text editors, such as VS Code, Emacs, or Vim.
 | 1    | 9, 10 Sep | Introduction to the Rocq Proof Assistant |        | [Lab 1 (.pdf)](lab1/lab1.pdf) <br> [Rocq file (.v)](lab1/lab1.v) <br> [Solutions (.v)](lab1/lab1_solutions.v) |
 | 2    | 16 Sep | Proof by induction   | [Lecture 2 (slides)](lecture2.pdf) <br> [Lecture Notes](notes_induction.pdf) |      |
 | 2    | 16, 17 Sep | Exercises on proof by induction |        | [Lab 2 (.pdf)](lab2/lab2.pdf) <br> [Rocq file (.v)](lab2/lab2.v) <br> [Solutions (.v)](lab2/lab2_solutions.v) |
+| 3   | 23 Sep | Inductively defined properties and verification of abstract data types   | [Lecture 3 (slides)](lecture3.pdf) <br> [Lecture Notes](notes_inductive_properties.pdf) |      |
+| 3   | 23, 24 Sep | Verified Skew Heaps |        | [Lab 3 (.pdf)](lab3/lab3.pdf) <br> [Rocq file (.v)](lab3/lab3.v) |
