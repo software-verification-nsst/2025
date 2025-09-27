@@ -58,4 +58,4 @@ assistant with common text editors, such as VS Code, Emacs, or Vim.
 | 2    | 16 Sep | Proof by induction   | [Lecture 2 (slides)](lecture2.pdf) <br> [Lecture Notes](notes_induction.pdf) |      |
 | 2    | 16, 17 Sep | Exercises on proof by induction |        | [Lab 2 (.pdf)](lab2/lab2.pdf) <br> [Rocq file (.v)](lab2/lab2.v) <br> [Solutions (.v)](lab2/lab2_solutions.v) |
 | 3   | 23 Sep | Inductively defined properties and verification of abstract data types   | [Lecture 3 (slides)](lecture3.pdf) <br> [Lecture Notes](notes_inductive_properties.pdf) |      |
-| 3   | 23, 24 Sep | Verified Skew Heaps |        | [Lab 3 (.pdf)](lab3/lab3.pdf) <br> [Rocq file (.v)](lab3/lab3.v) |
+| 3   | 23, 24 Sep | Verified Skew Heaps |        | [Lab 3 (.pdf)](lab3/lab3.pdf) <br> [Rocq file (.v)](lab3/lab3.v) <br> [Solutions (.v)](lab3/lab3_solutions.v) |
