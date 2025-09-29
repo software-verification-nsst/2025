@@ -49,6 +49,14 @@ Regarding editors, Rocq comes with its own IDE. This is installed with
 the Rocq Platform. There are also very smooth integration of the proof
 assistant with common text editors, such as VS Code, Emacs, or Vim.
 
+### The Why3 framework
+
+The Why3 framework is going to be our tool of choice for the second
+part of the Software Verification course.
+
+In order to install Why3 and its ecosystem, please follow the
+installation guide provided [here](install_why3.md).
+
 ## Planning
 
 | Week | Date | Topics | Slides | Labs |
