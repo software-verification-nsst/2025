@@ -1,0 +1,30 @@
+module Demo
+
+  use int.Int
+
+  let double (x y: int) : int
+     requires { x = y }
+     ensures  { result = 2 * y }
+  = x * 2
+
+  let swap (x y: int) : (x': int, y': int)
+    ensures { x' = y && y' = x }
+  = let ref x' = x in
+    let ref y' = y in
+    let tmp = x' in
+    x' <- y';
+    y' <- tmp;
+    (x', y')
+
+  let max_imp (x y: int) : (r: int)
+  = let ref r = 0 in
+    if x >= y then
+      r <- x
+    else
+      r <- y;
+    r
+
+  let test ()
+  = let r = max_imp 42 73 in
+    assert { r = 73 }
+end
