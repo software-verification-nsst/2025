@@ -57,6 +57,25 @@ part of the Software Verification course.
 In order to install Why3 and its ecosystem, please follow the
 installation guide provided [here](install_why3.md).
 
+The Why3 framework has been around for a few years now, and it has
+been the subject of very intense development and research. You should
+definitely know and check, on a regular basis, the following three
+websites:
+
+  - The framework manual: https://www.why3.org/doc/
+
+    Other than providing a very comprehensive presentation of the
+    framework and underlying tools, the third chapter is of mandatory
+    reading for those learning to do proofs with Why3.
+
+  - The standard library: https://www.why3.org/stdlib/
+
+  - Finally, the huge gallery of verified programs:
+    https://toccata.gitlabpages.inria.fr/toccata/gallery/why3.en.html
+
+    This is probably the best source to learn specification and
+    programming using WhyML, the programming language of Why3.
+
 ## Planning
 
 | Week | Date | Topics | Slides | Labs |
