@@ -16,6 +16,15 @@ module Simple
 
 end
 
+module Interval
+
+  use int.Int
+
+  let interval_contains (low high low_b high_b: int) : int
+  = absurd (* Exercise 2 *)
+
+end
+
 module Mystery
 
   use int.Int
@@ -24,7 +33,7 @@ module Mystery
     requires { n >= 0 }
     requires { m >= 0 }
     variant  { n }
-    ensures  { true }
+    ensures  { true } (* Exercise 3 *)
   = if n = 0 then m
     else 1 + mistery1 (n - 1) m
 
@@ -32,7 +41,7 @@ module Mystery
     requires { n >= 0 }
     requires { m >= 0 }
     variant  { n }
-    ensures  { true }
+    ensures  { true } (* Exercise 3 *)
   = if n = 0 then 0
     else
       let aux = mistery2 (n - 1) m in
@@ -49,6 +58,9 @@ module Min2
   = if a>=b then b
     else a
 
+  let main ()
+  = absurd (* Exercise 4 *)
+
 end
 
 module M
@@ -58,23 +70,23 @@ module M
   let m1 (x y: int) : int
     requires { 0 < x < y }
     ensures  { result >= 0 && result < y && result <> x }
-  = absurd (* Exercise XXX *)
+  = absurd (* Exercise 5.1 *)
 
   let m2 (x: int) : int
     requires { x >= 0 }
     requires { x <= -1 }
     ensures  { result > x && result < x }
-  = absurd (* Exercise XXX *)
+  = absurd (* Exercise 5.2 *)
 
 
   let m3 (x y: int) : bool
     ensures { result -> x = y }
-  = absurd (* Exercise XXX *)
+  = absurd (* Exercise 5.3 *)
 
 
   let m4 (x y:int) : bool
     ensures { result <-> x = y }
-  = absurd (* Exercise XXX *)
+  = absurd (* Exercise 5.4 *)
 
 end
 
@@ -86,7 +98,7 @@ module Square
 
   let q (n: int) : int
     requires { n >= 0 }
-    ensures  { true }
+    ensures  { true } (* Exercise 6 *)
   = let ref count = 0 in
     let ref sum = 1 in
     while sum <= n do
@@ -106,9 +118,13 @@ module Division
   use int.Int
 
   let division (x y: int) : (q: int, r: int)
+    requires { true } (* Exercise 7 *)
+    ensures  { true } (* Exercise 7 *)
   = let ref q = 0 in
     let ref r = x in
     while r >= y do
+      invariant { true } (* Exercise 7 *)
+      variant   { 0 }    (* Exercise 7 *)
       r <- r - y;
       q <- q + 1
     done;
@@ -126,10 +142,14 @@ module Routine
     else n * fact(n - 1)
 
   let routine (n: int) : int
+    requires { true } (* Exercise 8 *)
+    ensures  { true } (* Exercise 8 *)
   = let ref r = 0 in
     let ref u = 1 in
 
     while r < n do
+      invariant { true } (* Exercise 8 *)
+      variant   { 0 }    (* Exercise 8 *)
       let ref s = 1 in
       let ref v = u in
       while s <= r do
@@ -151,7 +171,7 @@ module Fib
 
   let fib_imp (n: int) : int
     ensures { result = fib n }
-  = absurd (* Exercise XXX *)
+  = absurd (* Exercise 9 *)
 
 end
 
@@ -171,6 +191,6 @@ module AddList
 
   let add_imp (l : list int) : int
     ensures { result = add l }
-  = absurd (* Exercise XXX *)
+  = absurd (* Exercise 10 *)
 
 end
