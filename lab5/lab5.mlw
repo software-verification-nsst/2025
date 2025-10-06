@@ -1,0 +1,176 @@
+module Simple
+
+  use int.Int
+
+  let abs (x: int) : int
+  = absurd (* Exercise 1.1 *)
+
+  let max2 (x y: int) : int
+  = absurd (* Exercise 1.2 *)
+
+  let max3 (x y w: int) : int
+  = absurd (* Exercise 1.3 *)
+
+  let compare_to (x y: int) : int
+  = absurd (* Exercise 1.4 *)
+
+end
+
+module Mystery
+
+  use int.Int
+
+  let rec mistery1 (n m: int) : int
+    requires { n >= 0 }
+    requires { m >= 0 }
+    variant  { n }
+    ensures  { true }
+  = if n = 0 then m
+    else 1 + mistery1 (n - 1) m
+
+  let rec mistery2 (n m: int) : int
+    requires { n >= 0 }
+    requires { m >= 0 }
+    variant  { n }
+    ensures  { true }
+  = if n = 0 then 0
+    else
+      let aux = mistery2 (n - 1) m in
+      mistery1 m aux
+
+end
+
+module Min2
+
+  use int.Int
+
+  let min2 (a b: int) : int
+    ensures { result = a <-> a <= b }
+  = if a>=b then b
+    else a
+
+end
+
+module M
+
+  use int.Int
+
+  let m1 (x y: int) : int
+    requires { 0 < x < y }
+    ensures  { result >= 0 && result < y && result <> x }
+  = absurd (* Exercise XXX *)
+
+  let m2 (x: int) : int
+    requires { x >= 0 }
+    requires { x <= -1 }
+    ensures  { result > x && result < x }
+  = absurd (* Exercise XXX *)
+
+
+  let m3 (x y: int) : bool
+    ensures { result -> x = y }
+  = absurd (* Exercise XXX *)
+
+
+  let m4 (x y:int) : bool
+    ensures { result <-> x = y }
+  = absurd (* Exercise XXX *)
+
+end
+
+module Square
+
+  use int.Int
+
+  function square (n: int) : int = n * n
+
+  let q (n: int) : int
+    requires { n >= 0 }
+    ensures  { true }
+  = let ref count = 0 in
+    let ref sum = 1 in
+    while sum <= n do
+      invariant { 0 <= count }
+      invariant { square count <= n }
+      invariant { sum = square (count + 1) }
+      variant   { n - sum }
+      count <- count + 1;
+      sum <- sum + 2 * count + 1;
+    done;
+    count
+
+end
+
+module Division
+
+  use int.Int
+
+  let division (x y: int) : (q: int, r: int)
+  = let ref q = 0 in
+    let ref r = x in
+    while r >= y do
+      r <- r - y;
+      q <- q + 1
+    done;
+    (q, r)
+end
+
+module Routine
+
+  use int.Int
+
+  let rec function fact (n: int) : int
+    requires { n >= 0 }
+    variant  { n }
+  = if n = 0 then 1
+    else n * fact(n - 1)
+
+  let routine (n: int) : int
+  = let ref r = 0 in
+    let ref u = 1 in
+
+    while r < n do
+      let ref s = 1 in
+      let ref v = u in
+      while s <= r do
+        u <- u + v;
+        s <- s + 1
+      done;
+      r <- r + 1
+    done;
+    u
+
+end
+
+module Fib
+
+  use int.Int
+
+  (* this already provides a logical function [fib] *)
+  use int.Fibonacci
+
+  let fib_imp (n: int) : int
+    ensures { result = fib n }
+  = absurd (* Exercise XXX *)
+
+end
+
+module AddList
+
+  use int.Int
+
+  (* this already provides the [list] type definition, as well as the
+     [is_nil] predicate. *)
+  use list.List
+
+  let rec function add (l : list int) : int
+  = match l with
+    | Nil -> 0
+    | Cons x xs -> x + add xs
+    end
+
+  let add_imp (l : list int) : int
+    ensures { result = add l }
+  = absurd (* Exercise XXX *)
+
+end

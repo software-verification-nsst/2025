@@ -88,3 +88,5 @@ websites:
 | 3 | 23, 24 Sep | Verified Skew Heaps | | [Lab 3 (.pdf)](lab3/lab3.pdf) <br> [Rocq file (.v)](lab3/lab3.v) <br> [Solutions (.v)](lab3/lab3_solutions.v) |
 | 4 | 30 Sep | Introduction to Hoare Logic | [Lecture 4 (slides)](lecture4.pdf) <br> [Demo file (.mlw)](demo.mlw) <br> [First Handout Criteria](sv_handout1_evaluation_criteria.pdf) | |
 | 4 | 31 Sep, 1 Oct | Support class for Handout 1 | | |
+| 5 | 7 Oct | Loop Invariants in Hoare Logic and Weakest Precondition Calculus | [Lecture 5 (slides)](lecture5.pdf) | |
+| 5 | 7 Oct, 8 Oct | Introduction to the Why3 Tool | | [Lab 5 (.pdf)](lab5/lab5.pdf) <br> [Why3 file (.mlw)](lab5/lab5.mlw) |
