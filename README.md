@@ -91,6 +91,6 @@ websites:
 | 5 | 7 Oct | Loop Invariants in Hoare Logic and Weakest Precondition Calculus | [Lecture 5 (slides)](lecture5.pdf) | |
 | 5 | 7 Oct, 8 Oct | Introduction to the Why3 Tool | | [Lab 5 (.pdf)](lab5/lab5.pdf) <br> [Why3 file (.mlw)](lab5/lab5.mlw) |
 | 6 | 14 Oct | Loop Invariants, Sorting Algorithms, Bounded Integers | [Lecture 6 (slides)](lecture6.pdf) | |
-| 6 | 14 Oct, 15 Oct |  |  | [Lab 6 (.pdf)](lab6/lab6.pdf) |
+| 6 | 14 Oct, 15 Oct | Exercises on Loop Invariants and Matrices |  | [Lab 6 (.pdf)](lab6/lab6.pdf) |
 | 7 | 21 Oct | Verification of Abstract Data Types and Ghost Code | [Lecture 7 (slides)](lecture7.pdf) | |
-| 7 | 21 Oct, 22 Oct |  | More exercises on Matrices and Verification of an Abstract Data Type  | [Lab 7 (.pdf)](lab7/lab7.pdf) <br> [Why3 file (.mlw)](lab7/lab7.mlw) |
+| 7 | 21 Oct, 22 Oct | More exercises on Matrices and Verification of an Abstract Data Type |   | [Lab 7 (.pdf)](lab7/lab7.pdf) <br> [Why3 file (.mlw)](lab7/lab7.mlw) |
