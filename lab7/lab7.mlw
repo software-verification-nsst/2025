@@ -1,0 +1,53 @@
+module Set
+
+  use set.Fset
+
+  (* abstract = ghost + private *)
+  type t = abstract {
+    mutable view : fset int;
+  }
+
+  val create () : t
+    ensures { result.view = empty }
+
+  val insert (x: int) (t: t) : unit
+    writes  { t }
+    ensures { t.view = add x (old t.view) }
+
+  val function is_empty (t: t) : bool
+    ensures { result <-> t.view = empty }
+
+  predicate is_min (x: int) (t: t)
+
+  val remove_min (t: t) : int
+    requires { not is_empty t }
+    writes   { t }
+    ensures  { is_min result (old t) }
+    ensures  { t.view = remove result (old t.view) }
+
+end
+
+module BST : Set
+
+  use int.Int
+  use set.Fset
+
+  type t = {
+    ghost mutable view: fset int;
+  }
+
+  let create () : t
+  = absurd
+
+  let insert (x: int) (t: t) : unit
+  = absurd
+
+  let function is_empty (t: t) : bool
+  = absurd
+
+  predicate is_min (x: int) (t: t)
+
+  let remove_min (t: t) : int
+  = absurd
+
+end
