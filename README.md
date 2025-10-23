@@ -93,4 +93,4 @@ websites:
 | 6 | 14 Oct | Loop Invariants, Sorting Algorithms, Bounded Integers | [Lecture 6 (slides)](lecture6.pdf) | |
 | 6 | 14 Oct, 15 Oct | Exercises on Loop Invariants and Matrices |  | [Lab 6 (.pdf)](lab6/lab6.pdf) |
 | 7 | 21 Oct | Verification of Abstract Data Types and Ghost Code | [Lecture 7 (slides)](lecture7.pdf) | |
-| 7 | 21 Oct, 22 Oct | More exercises on Matrices and Verification of an Abstract Data Type |   | [Lab 7 (.pdf)](lab7/lab7.pdf) <br> [Why3 file (.mlw)](lab7/lab7.mlw) |
+| 7 | 21 Oct, 22 Oct | More exercises on Matrices and Verification of an Abstract Data Type |   | [Lab 7 (.pdf)](lab7/lab7.pdf) <br> [Why3 file (.mlw)](lab7/lab7.mlw) <br> [Solutions (.zip](lab7/lab7_solutions.zip)|
