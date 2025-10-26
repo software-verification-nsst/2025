@@ -8,6 +8,13 @@ Please inform before (by email) that you plan to attend office hours.
 | ------------- | -------- | ------ |
 | Mário Pereira | Monday, 14h00 (Office 243) | mjp.pereira@fct.unl.pt |
 
+## Handouts
+
+| Handout | Statement                           | Companion files                |
+|---------|-------------------------------------|--------------------------------|
+| 1       | [Handout 1 (.pdf)](sv_handout1.pdf) | [proper_cuts.v](proper_cuts.v) |
+| 2       | [Handout 2 (.pdf)](sv_handout2.pdf) | [delannoy.zip](delannoy.zip)   |
+
 ## Installation procedures
 
 Throughout the Software Verification course we will be using several
