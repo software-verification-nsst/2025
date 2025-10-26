@@ -96,7 +96,7 @@ websites:
 | 4 | 30 Sep | Introduction to Hoare Logic | [Lecture 4 (slides)](lecture4.pdf) <br> [Demo file (.mlw)](demo.mlw) <br> [First Handout Criteria](sv_handout1_evaluation_criteria.pdf) | |
 | 4 | 31 Sep, 1 Oct | Support class for Handout 1 | | |
 | 5 | 7 Oct | Loop Invariants in Hoare Logic and Weakest Precondition Calculus | [Lecture 5 (slides)](lecture5.pdf) | |
-| 5 | 7 Oct, 8 Oct | Introduction to the Why3 Tool | | [Lab 5 (.pdf)](lab5/lab5.pdf) <br> [Why3 file (.mlw)](lab5/lab5.mlw) <br> [Solutions (.zip)(lab5/lab5_solutions.zip)] |
+| 5 | 7 Oct, 8 Oct | Introduction to the Why3 Tool | | [Lab 5 (.pdf)](lab5/lab5.pdf) <br> [Why3 file (.mlw)](lab5/lab5.mlw) <br> [Solutions (.zip)](lab5/lab5_solutions.zip)] |
 | 6 | 14 Oct | Loop Invariants, Sorting Algorithms, Bounded Integers | [Lecture 6 (slides)](lecture6.pdf) | |
 | 6 | 14 Oct, 15 Oct | Exercises on Loop Invariants and Matrices |  | [Lab 6 (.pdf)](lab6/lab6.pdf) |
 | 7 | 21 Oct | Verification of Abstract Data Types and Ghost Code | [Lecture 7 (slides)](lecture7.pdf) | |
