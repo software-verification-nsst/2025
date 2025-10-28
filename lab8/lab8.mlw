@@ -1,0 +1,52 @@
+module EphemeralQueue
+
+  use int.Int
+  use list.List, list.Reverse
+  use seq.Seq
+  use import seq.Reverse as SR
+  use seq.OfList
+
+  type t 'a = {
+    mutable front : list 'a;
+    mutable rear : list 'a;
+    mutable size : int;
+  }
+
+  let create () : t 'a
+  = { front = Nil; rear = Nil; size = 0; }
+
+  let function is_empty (q: t 'a) : bool
+  = q.size = 0
+
+  let push (x: 'a) (q: t 'a) : unit
+  = if is_empty q then
+      q.front <- Cons x Nil
+    else q.rear <- Cons x q.rear;
+    q.size <- q.size + 1
+
+  let rec lemma rev_of_list_commut (l: list 'a)
+    ensures { of_list (Reverse.reverse l) == SR.reverse (of_list l) }
+    variant { l }
+  = absurd (* TODO *)
+
+  let pop (q: t 'a) : 'a
+  = let x =
+      match q.front with
+      | Nil -> absurd
+      | Cons x Nil ->
+          q.front <- reverse q.rear;
+          q.rear <- Nil;
+          x
+      | Cons x f ->
+          q.front <- f;
+          x
+      end in
+    q.size <- q.size - 1;
+    x
+
+  let transfer (q1 q2: t 'a)
+  = while not is_empty q1 do
+      push (pop q1) q2
+    done
+
+end
