@@ -1,0 +1,74 @@
+module Circular
+
+  use int.Int
+  use int.ComputerDivision, mach.int.Int
+  use array.Array
+
+  type t = {
+    a: array int;
+    mutable front: int;
+    mutable rear: int;
+    mutable number_elts: int;
+  } invariant { 0 <= front < a.length }
+    invariant { 0 <= rear  < a.length }
+    invariant { if front = rear then
+                  number_elts = 0 \/
+                  number_elts = a.length
+                else
+                  number_elts =
+                    if front > rear then
+                      front - rear
+                    else
+                      front - rear + a.length }
+
+  predicate not_full (t: t)
+  = t.number_elts < t.a.length
+
+  predicate not_empty (t: t)
+  = t.number_elts > 0
+
+  let create (n: int) : t
+    requires { 0 < n }
+    ensures  { not_full result }
+  = { a = make n 0;
+      front = 0;
+      rear = 0;
+      number_elts = 0 }
+
+  let enqueue (v: int) (t: t) : unit
+    requires { not_full t }
+    ensures  { not_empty t }
+  = t.a[t.front] <- v;
+    t.front <- (t.front + 1) % t.a.length;
+    t.number_elts <- t.number_elts + 1
+
+  let dequeue (t: t) : int
+    requires { not_empty t }
+    ensures  { not_full t }
+  = let v = t.a[t.rear] in
+    t.rear <- (t.rear + 1) % t.a.length;
+    t.number_elts <- t.number_elts - 1;
+    v
+
+  let is_empty (t: t)
+    ensures { result <-> not not_empty t }
+  = t.number_elts = 0
+
+  let is_full (t: t)
+    ensures { result <-> not not_full t }
+  = t.number_elts = t.a.length
+
+  let main ()
+  = let q = create 4 in
+    enqueue 1 q;
+    let ref r = dequeue q in
+    if not is_empty q then begin
+      r <- dequeue q;
+      enqueue 2 q end;
+    if not is_full q then enqueue 3 q;
+    if not is_full q then begin
+      enqueue 4 q;
+      r <- dequeue q end;
+    if not is_full q then enqueue 5 q
+
+end
