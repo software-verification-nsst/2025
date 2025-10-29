@@ -102,4 +102,4 @@ websites:
 | 7 | 21 Oct | Verification of Abstract Data Types and Ghost Code | [Lecture 7 (slides)](lecture7.pdf) | |
 | 7 | 21 Oct, 22 Oct | More exercises on Matrices and Verification of an Abstract Data Type |   | [Lab 7 (.pdf)](lab7/lab7.pdf) <br> [Why3 file (.mlw)](lab7/lab7.mlw) <br> [Solutions (.zip)](lab7/lab7_solutions.zip)|
 | 8 | 28 Oct | ADTs and Typestates | [Lecture 8 (slides)](lecture8.pdf) <br> [Demo file (.mlw)](cicular.mlw) | |
-| 8 | 28 Oct, 29 Oct | Exercises on ADTs and Typestates |   | [Lab 8 (.pdf)](lab8/lab8.pdf) <br> [Why3 file (.mlw)](lab8/lab8.mlw) |
+| 8 | 28 Oct, 29 Oct | Exercises on ADTs and Typestates |   | [Lab 8 (.pdf)](lab8/lab8.pdf) <br> [Why3 file (.mlw)](lab8/lab8.mlw)<br> [Solutions (.zip)](lab8/lab8_solutions.zip) |
