@@ -105,3 +105,5 @@ websites:
 | 8 | 28 Oct, 29 Oct | Exercises on ADTs and Typestates |   | [Lab 8 (.pdf)](lab8/lab8.pdf) <br> [Why3 file (.mlw)](lab8/lab8.mlw)<br> [Solutions (.zip)](lab8/lab8_solutions.zip) |
 | 9 | 4 Nov | Separation Logic: Introduction | [Lecture 9 (slides)](lecture9.pdf) <br> [Demo files (.zip)](demo_lecture9.zip) | |
 | 9 | 4 Nov, 5 Nov | Support class for Handout 2 |   | |
+| 10 | 11 Nov | Separation Logic: data structures | [Lecture 10 (slides)](lecture10.pdf) | |
+| 10 | 11 Nov, 12 Nov | Exercises on Data Structures in Separation Logic |   | [Lab 10 (.pdf)](lab10/lab10.pdf)] |
