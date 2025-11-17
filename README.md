@@ -106,6 +106,6 @@ websites:
 | 9 | 4 Nov | Separation Logic: Introduction | [Lecture 9 (slides)](lecture9.pdf) <br> [Demo files (.zip)](demo_lecture9.zip) | |
 | 9 | 4 Nov, 5 Nov | Support class for Handout 2 |   | |
 | 10 | 11 Nov | Separation Logic: Data Structures | [Lecture 10 (slides)](lecture10.pdf) | |
-| 10 | 11 Nov, 12 Nov | Exercises on Data Structures in Separation Logic |   | [Lab 10 (.pdf)](lab10/lab10.pdf) |
+| 10 | 11 Nov, 12 Nov | Exercises on Data Structures in Separation Logic |   | [Lab 10 (.pdf)](lab10/lab10.pdf) <br> [Extra Exercise on Data Structures (2023-2024 Handout 3)](lab10/cvs_2324_handout3.pdf) <br> [Queue Data Structure](lab10/Queue.java) |
 | 11 | 18 Nov | Separation Logic: Concurrency | [Lecture 11 (slides)](lecture11.pdf) | |
 | 11 | 18 Nov, 19 Nov | Exercises on Concurrency in Separation Logic |   | [Lab 11 (.pdf)](lab11/lab11.pdf) |
