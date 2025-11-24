@@ -110,3 +110,5 @@ websites:
 | 10 | 11 Nov, 12 Nov | Exercises on Data Structures in Separation Logic |   | [Lab 10 (.pdf)](lab10/lab10.pdf) <br> [Extra Exercise on Data Structures (2023-2024 Handout 3)](lab10/cvs_2324_handout3.pdf) <br> [Queue Data Structure](lab10/Queue.java) |
 | 11 | 18 Nov | Separation Logic: Concurrency | [Lecture 11 (slides)](lecture11.pdf) | |
 | 11 | 18 Nov, 19 Nov | Exercises on Concurrency in Separation Logic |   | [Lab 11 (.pdf)](lab11/lab11.pdf) |
+| 12 | 25 Nov | Separation Logic: Fractional Permissions | [Lecture 12 (slides)](lecture12.pdf) | |
+| 12 | 25 Nov, 26 Nov | Support class for Handout 3 |   |  |
